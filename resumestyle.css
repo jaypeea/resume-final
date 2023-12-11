@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gabarito', cursive;
+    box-sizing: border-box;
+}
+
+.shaped{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.shaped img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+.container{
+    padding: 30px 5%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 250px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Khand', sans-serif;
+}
+
+.hover {
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color .6s ease;
+}
+
+.hover:hover {
+    color: #e74c3c;
+}
+
+.me{
+    margin-top: 20%;
+    text-align: right;
+    margin-right: 160px;
+}
+
+.me h1 span {
+    color: #FF3131;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+}
+
+#about{
+    padding: 10px 0;
+    color: #e74c3c;
+}
+
+.row{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Gabarito', cursive;
+    background-color: #2B2A4C;
+    color: #D0E7D2;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 20%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 3rem;
+        gap: 7rem;
+    }
+}
+
+.profile {
+    grid-column: 1/-1;
+    margin-bottom: 2rem;
+}
+
+.profile_container {
+    display: flex;
+    gap: 2rem;
+}
+
+.photo {
+    max-width: 250px;
+}
+
+.fn {
+    font-size: clamp(2rem, 8vw, 4rem);
+    display: block;
+    margin-bottom: -3rem;
+    color: #EEE2DE;
+}
+
+.ln {
+    color: #FF3131;
+    font-size: clamp(2.5rem, 15vw, 7rem);
+}
+
+.bsit {
+    font-size: 1.8rem;
+    color: #EEE2DE;
+}
+
+.about{
+    font-size: 18px;
+    color: #D0E7D2;
+}
+
+.about_me {
+    margin-top: 1rem;
+    font-size: 20px;
+    color: #EEE2DE;
+}
+
+.level {
+    font-size: 25px;
+    color: #B31312;
+}
+
+.contact-info strong {
+    font-size: 15px;
+    font-weight: 600;
+    color: #EA906C;
+}
+
+a {
+    text-decoration: none;
+    color: #D0E7D2;
+    font-size: 15px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    color: #FF3131;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.section_container ul li h2 {
+    font-size: 20px;
+    color: #B0D9B1;
+    margin-bottom: 5px;
+}
+
+.section_container ul li h2.level {
+    font-size: 25px;
+    color: #EA906C;
+}
+
+.section_container ul li h2:not(.level) {
+    font-size: 18px;
+}
+
+h2.level:hover {
+    color: #EA906C;
+}
+
+@keyframes blink {
+    0%, 50%, 100% {
+        opacity: 1;
+    }
+    25%, 75% {
+        opacity: 0;
+    }
+}
+
+.blinking {
+    animation: blink .7s;
+}
+
+.nav-link:hover {
+    color: #e74c3c;
+}
+
+.section_container section {
+    font-size: 30px;
+    color: #FF3131;
+    text-align: center;.contact-info strong {
+    font-size: 15px;
+    font-weight: 600;
+    color: #EA906C;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #D0E7D2;
+    font-size: 15px;
+}
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.contact-info strong {
+    font-size: 15px;
+    font-weight: 600;
+    color: #EA906C;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #D0E7D2;
+    font-size: 15px;
+}
